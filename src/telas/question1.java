@@ -53,7 +53,7 @@ public class question1 extends javax.swing.JFrame {
         c = new javax.swing.JRadioButton();
         d = new javax.swing.JRadioButton();
         jButton1 = new javax.swing.JButton();
-        jLabel4 = new javax.swing.JLabel();
+        background = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMaximumSize(new java.awt.Dimension(800, 600));
@@ -61,18 +61,18 @@ public class question1 extends javax.swing.JFrame {
         getContentPane().setLayout(null);
 
         titulo.setBackground(new java.awt.Color(255, 255, 255));
-        titulo.setFont(new java.awt.Font("MS Gothic", 1, 24)); // NOI18N
+        titulo.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         titulo.setForeground(new java.awt.Color(255, 255, 0));
         titulo.setText("Questão 1");
         getContentPane().add(titulo);
-        titulo.setBounds(340, 120, 130, 50);
+        titulo.setBounds(340, 120, 150, 50);
 
         jLabel2.setBackground(new java.awt.Color(255, 255, 255));
         jLabel2.setFont(new java.awt.Font("MS Gothic", 1, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 0));
         jLabel2.setText("Vidas:");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(40, 20, 60, 30);
+        jLabel2.setBounds(20, 30, 60, 30);
 
         jLabel3.setBackground(new java.awt.Color(255, 255, 255));
         jLabel3.setFont(new java.awt.Font("MS Gothic", 1, 18)); // NOI18N
@@ -82,28 +82,27 @@ public class question1 extends javax.swing.JFrame {
         jLabel3.setBounds(620, 30, 70, 40);
 
         pontos.setBackground(new java.awt.Color(255, 255, 255));
-        pontos.setFont(new java.awt.Font("MS Gothic", 1, 18)); // NOI18N
+        pontos.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         pontos.setForeground(new java.awt.Color(255, 255, 0));
         pontos.setText("0");
         getContentPane().add(pontos);
-        pontos.setBounds(710, 30, 20, 40);
+        pontos.setBounds(700, 30, 40, 40);
 
-        lblVidas.setFont(new java.awt.Font("MS Gothic", 1, 18)); // NOI18N
+        lblVidas.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         lblVidas.setForeground(new java.awt.Color(255, 255, 0));
         lblVidas.setText("3");
         getContentPane().add(lblVidas);
-        lblVidas.setBounds(110, 20, 30, 30);
+        lblVidas.setBounds(90, 30, 20, 30);
 
         pergunta.setBackground(new java.awt.Color(255, 255, 255));
-        pergunta.setFont(new java.awt.Font("MS Gothic", 1, 18)); // NOI18N
+        pergunta.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         pergunta.setForeground(new java.awt.Color(255, 255, 0));
         pergunta.setText("O HTML é uma linguagem de :");
         getContentPane().add(pergunta);
-        pergunta.setBounds(90, 220, 740, 70);
+        pergunta.setBounds(70, 240, 740, 40);
 
-        a.setBackground(new java.awt.Color(0, 0, 0));
         buttonGroup1.add(a);
-        a.setForeground(new java.awt.Color(255, 255, 0));
+        a.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         a.setText("Programação");
         a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -111,31 +110,28 @@ public class question1 extends javax.swing.JFrame {
             }
         });
         getContentPane().add(a);
-        a.setBounds(110, 290, 710, 23);
+        a.setBounds(110, 290, 710, 31);
 
-        b.setBackground(new java.awt.Color(0, 0, 0));
         buttonGroup1.add(b);
-        b.setForeground(new java.awt.Color(255, 255, 0));
+        b.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         b.setText("Estilização");
         getContentPane().add(b);
-        b.setBounds(110, 320, 710, 23);
+        b.setBounds(110, 320, 710, 31);
 
-        c.setBackground(new java.awt.Color(0, 0, 0));
         buttonGroup1.add(c);
-        c.setForeground(new java.awt.Color(255, 255, 0));
+        c.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         c.setText("Consulta Estruturada");
         getContentPane().add(c);
-        c.setBounds(110, 350, 710, 23);
+        c.setBounds(110, 350, 710, 31);
 
-        d.setBackground(new java.awt.Color(0, 0, 0));
         buttonGroup1.add(d);
-        d.setForeground(new java.awt.Color(255, 255, 0));
+        d.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         d.setText("Marcação de HiperTexto");
         getContentPane().add(d);
-        d.setBounds(110, 380, 710, 23);
+        d.setBounds(110, 380, 710, 31);
 
         jButton1.setBackground(new java.awt.Color(0, 0, 0));
-        jButton1.setFont(new java.awt.Font("MS Gothic", 1, 14)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 0));
         jButton1.setText("Próxima");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -146,9 +142,10 @@ public class question1 extends javax.swing.JFrame {
         getContentPane().add(jButton1);
         jButton1.setBounds(370, 440, 110, 40);
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/devBG.jpg"))); // NOI18N
-        getContentPane().add(jLabel4);
-        jLabel4.setBounds(-50, -20, 900, 720);
+        background.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
+        background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/devBG.jpg"))); // NOI18N
+        getContentPane().add(background);
+        background.setBounds(-50, -20, 900, 720);
 
         pack();
         setLocationRelativeTo(null);
@@ -393,7 +390,6 @@ public class question1 extends javax.swing.JFrame {
                 } else {
                     score = score + 10;
                     pontos.setText(Integer.toString(score));
-                    JOptionPane.showMessageDialog(null, "Você ganhou");
                 }
                 if (vida == 0) {
                     JOptionPane.showMessageDialog(null, "GameOver");
@@ -452,13 +448,13 @@ public class question1 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JRadioButton a;
     private javax.swing.JRadioButton b;
+    private javax.swing.JLabel background;
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JRadioButton c;
     private javax.swing.JRadioButton d;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel lblVidas;
     private javax.swing.JLabel pergunta;
     private javax.swing.JLabel pontos;

@@ -61,6 +61,12 @@ public class Splash extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jProgressBar1 = new javax.swing.JProgressBar();
         info = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
         bg = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -69,27 +75,63 @@ public class Splash extends javax.swing.JFrame {
         setPreferredSize(new java.awt.Dimension(800, 600));
         getContentPane().setLayout(null);
 
-        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel1.setBackground(new java.awt.Color(153, 153, 153));
         jLabel1.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 51));
-        jLabel1.setText("Game Quiz");
+        jLabel1.setText("Quiz da Programação");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(270, 200, 170, 50);
+        jLabel1.setBounds(270, 120, 310, 50);
 
         jLabel2.setBackground(new java.awt.Color(255, 255, 255));
         jLabel2.setFont(new java.awt.Font("MS Gothic", 1, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 0));
         jLabel2.setText("Status:");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(160, 450, 70, 30);
+        jLabel2.setBounds(160, 490, 70, 30);
         getContentPane().add(jProgressBar1);
-        jProgressBar1.setBounds(190, 380, 430, 30);
+        jProgressBar1.setBounds(200, 450, 430, 30);
 
         info.setBackground(new java.awt.Color(255, 255, 255));
         info.setFont(new java.awt.Font("MS Gothic", 1, 18)); // NOI18N
         info.setForeground(new java.awt.Color(255, 255, 51));
         getContentPane().add(info);
-        info.setBounds(240, 450, 410, 30);
+        info.setBounds(240, 490, 410, 30);
+
+        jLabel3.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 51));
+        jLabel3.setText("Instruções");
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(430, 210, 130, 40);
+
+        jLabel4.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 0));
+        jLabel4.setText("1) A cada acerto +10 pontos");
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(380, 240, 240, 30);
+
+        jLabel5.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 0));
+        jLabel5.setText("2) A cada erro -1 vida");
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(380, 260, 240, 30);
+
+        jLabel6.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 51));
+        jLabel6.setText("3) Ao perder todas as vidas, o jogo fecha");
+        getContentPane().add(jLabel6);
+        jLabel6.setBounds(380, 280, 330, 30);
+
+        jLabel7.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 0));
+        jLabel7.setText("4) Ao responder todas questão e ficar com ");
+        getContentPane().add(jLabel7);
+        jLabel7.setBounds(380, 300, 350, 30);
+
+        jLabel8.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 0));
+        jLabel8.setText("pelo menos uma vida, você ganha");
+        getContentPane().add(jLabel8);
+        jLabel8.setBounds(450, 320, 280, 40);
 
         bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/devBG.jpg"))); // NOI18N
         getContentPane().add(bg);
@@ -140,6 +182,12 @@ public class Splash extends javax.swing.JFrame {
     private javax.swing.JLabel info;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JProgressBar jProgressBar1;
     // End of variables declaration//GEN-END:variables
 }
